@@ -14,4 +14,9 @@ public class HelloWorld {
 	public String resayHi() {
 		return "hello world too";
 	}
+	
+	@RequestMapping(value="/commit")
+	public String commitInfo() {
+		return "修改后提交信息";
+	}
 }
