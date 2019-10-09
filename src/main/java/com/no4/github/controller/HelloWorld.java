@@ -17,7 +17,7 @@ public class HelloWorld {
 	
 	@RequestMapping(value="/commit")
 	public String commitInfo() {
-		return "修改后提交信息";
+		return "修改后提交信息，并提交远程仓库";
 	}
 	@RequestMapping(value="/remoteCommit")
 	public String remoteCommit() {
