@@ -23,4 +23,8 @@ public class HelloWorld {
 	public String remoteCommit() {
 		return "修改远程仓库信息，更新到本地";
 	}
+	@RequestMapping(value="/addInfo")
+	public String dealconfict() {
+		return "添加新消息";
+	}
 }
