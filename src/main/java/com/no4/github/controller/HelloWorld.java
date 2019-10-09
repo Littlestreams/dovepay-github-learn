@@ -10,4 +10,8 @@ public class HelloWorld {
 	public String sayHi() {
 		return "hello world";
 	}
+	@RequestMapping(value="/resay")
+	public String resayHi() {
+		return "hello world too";
+	}
 }
