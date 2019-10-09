@@ -21,6 +21,6 @@ public class HelloWorld {
 	}
 	@RequestMapping(value="/remoteCommit")
 	public String remoteCommit() {
-		return "修改远程仓库信息，更新到本地;"
+		return "修改远程仓库信息，更新到本地";
 	}
 }
